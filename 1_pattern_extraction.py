@@ -7,7 +7,7 @@ from scipy import fft
 from time import localtime, strftime
 import matplotlib.pyplot as plt
 from skimage.morphology import  disk,remove_small_objects
-from skimage.filter import rank
+from skimage.filters import rank
 from skimage.util import img_as_ubyte 
 import wave
 
